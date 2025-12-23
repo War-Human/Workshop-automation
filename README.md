@@ -18,15 +18,24 @@ The application is designed to run **24×7** with minimal delay and is structure
 - 🚀 Ready for future AI upgrades (YOLO / Faster R-CNN)
 ---
 ## 📂 Repository Structure
-Workshop-automation/
+Workshop-automation
+
 │
+
 ├── main.py # Application entry point
+
 ├── camera.py # RTSP camera handling
+
 ├── ocr_module.py # OCR preprocessing & text extraction
+
 ├── vehicle_logic.py # Entry–exit decision logic
+
 ├── database.py # MySQL connection & queries
+
 ├── config.py # Configuration settings
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
 
  Install dependencies:
