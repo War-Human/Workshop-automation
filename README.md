@@ -4,7 +4,7 @@ This repository contains a **real-time vehicle entry–exit automation system** 
 The system uses **CCTV (RTSP stream)** and **OCR-based number plate recognition** to automatically log vehicle entry and exit timings into a **MySQL database**.
 
 The application is designed to run **24×7** with minimal delay and is structured in a **modular and scalable way** for future upgrades.
----
+
 ## 🔹 Key Features
 
 - 📡 Live CCTV (RTSP) stream processing
@@ -18,33 +18,24 @@ The application is designed to run **24×7** with minimal delay and is structure
 - 🚀 Ready for future AI upgrades (YOLO / Faster R-CNN)
 ---
 ## 📂 Repository Structure
-Workshop-automation
+Workshop-automation<br>
+│<br>
+├── main.py          # Application entry point<br>
+├── camera.py        # RTSP camera handling<br>
+├── ocr_module.py    # OCR preprocessing & text extraction<br>
+├── vehicle_logic.py # Entry–exit decision logic<br>
+├── database.py      # MySQL connection & queries<br>
+├── config.py        # Configuration settings<br>
+├── requirements.txt # Python dependencies<br>
+└── README.md        # Project documentation<br>
 
-│
-
-├── main.py # Application entry point
-
-├── camera.py # RTSP camera handling
-
-├── ocr_module.py # OCR preprocessing & text extraction
-
-├── vehicle_logic.py # Entry–exit decision logic
-
-├── database.py # MySQL connection & queries
-
-├── config.py # Configuration settings
-
-├── requirements.txt # Python dependencies
-
-└── README.md # Project documentation
-
- Install dependencies:
+ ## Install dependencies:<br>
  pip install -r requirements.txt
 
-Future Enhancements
-  Vehicle & number plate detection using YOLO / Faster R-CNN
-  Multi-gate support
-  Direction-based entry/exit validation
-  Web dashboard and analytics
-  REST API integration
+## Future Enhancements
+- Vehicle & number plate detection using YOLO / Faster R-CNN
+- Multi-gate support
+- Direction-based entry/exit validation
+- Web dashboard and analytics
+- REST API integration
 
